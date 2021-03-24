@@ -105,3 +105,75 @@
 // let greeting;
 // greeting = `Доброго вечора ${name}, мої вітання що вам ${age}`
 // alert(greeting);
+
+// =====================
+// ======ДОП============
+// =====================
+
+// 1. Три різних числа вводяться через prompt().
+//     За допомоги if else вивести іх в порядку зростання. (відсортувати по зростанню)
+// let num1 = +prompt('enter a number');
+// let num2 = +prompt('enter a number');
+// let num3 = +prompt('enter a number');
+// if (num1 < num2 && num2 < num3) {
+//     console.log(num1);
+//     console.log(num2);
+//     console.log(num3);
+// } else if (num1 < num3 && num3<num2) {
+//     console.log(num1)
+//     console.log(num3)
+//     console.log(num2)
+// }else if (num2<num1&&num1<num3){
+//     console.log(num2);
+//     console.log(num1);
+//     console.log(num3);
+// }else if(num2<num3&&num3<num1){
+//     console.log(num2);
+//     console.log(num3);
+//     console.log(num1);
+// }else if(num3<num1&&num1<num2){
+//     console.log(num3);
+//     console.log(num1);
+//     console.log(num2);
+// }else{
+//     console.log(num3);
+//     console.log(num2);
+//     console.log(num1);
+// }
+// 2.
+// Все параматры получаем с клавиатуры!!!!
+//     Имитируем поведение пешехода на перекстке.
+//     Если светофор зеленый - вывести "иди".
+//     Если светофор желтый - вывести "подожди".
+//     Если светофор красный - вывести "стой".
+//     Если светофор в аварийном режиме вывести "делай что хочешь"!
+// alert('choose trafic light color: \n1=green \n2=yellow \n3=red');
+// let color = prompt(`enter number of trafic light`);
+// if (color == 1) {
+//     console.log('GO')
+// } else if (color == 2) {
+//     console.log('WAIT')
+// } else if (color == 3) {
+//     console.log('STOP')
+// } else {
+//     console.log('DO WHAT U WANT')
+// }
+// alert('виберіть колір світлофору \n1=зелений \n2=жовтий \n3=червоний');
+// alert('наявність машин \n1=є \n0=нема')
+// let color = prompt(`введіть число кольору світлофора`);
+// let isRoadClear = prompt('є на дорозі порушники?');
+// if (color == 1 && isRoadClear == 0) {
+//     console.log('іди');
+// } else if (color == 1 && isRoadClear == 1) {
+//     console.log('подожди пока нарушители проедут');
+// } else if (color == 2 && isRoadClear == 1) {
+//     console.log('жди');
+// } else if (color == 2 && isRoadClear == 0) {
+//     console.log('все равно жди');
+// } else if (color == 3 && isRoadClear == 0) {
+//     console.log('стой все равно');
+// } else if (color == 3 && isRoadClear == 1) {
+//     console.log('стой и жди');
+// } else {
+//     console.log('делай что хочешь');
+// }
