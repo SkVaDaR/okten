@@ -218,11 +218,9 @@ let car = {
     },
     increaseMaxSpeed: function (newSpeed = 400) {
         this.maxSpeed = newSpeed
-        console.log(newSpeed);
     },
     change: function (newValue = 2010) {
         this.year = newValue
-        console.log(newValue);
     },
     addDriver: function (driver) {
 
@@ -230,9 +228,14 @@ let car = {
     }
 }
 
+car.drive()
 car.info()
+car.increaseMaxSpeed()
+car.change()
 car.addDriver( {
     name: 'Stig',
     age: 40,
     experience: 22,
 });
+car.info()
+
