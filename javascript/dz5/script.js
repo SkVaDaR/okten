@@ -204,46 +204,35 @@
 // -- changeYear (newValue) - змінює рік випуску на значення newValue
 // -- addDriver (driver) - приймає об'єкт який "водій" з довільним набором полів, і доавляет його в поточний об'єкт car
 //
-// let car = {
-//     manufacturer: 'BMW',
-//     model: 'M5',
-//     year: 2006,
-//     maxSpeed: 250,
-//     capacity: 5.0,
-//     drive: function () {
-//         console.log(`їдемо зі швидкістю ${this.maxSpeed} км/год`);
-//     },
-//     info: function () {
-//         this.car = {
-//             model: 'BMW',
-//             year: 2006,
-//             maxSpeed: 250,
-//             capacity: 5.0
-//         }
-//     },
-//     increaseMaxSpeed: function (newSpeed = 400) {
-//         this.maxSpeed = newSpeed
-//         console.log(newSpeed);
-//     },
-//     change: function (newValue = 2010) {
-//         this.year = newValue
-//         console.log(newValue);
-//     },
-//     addDriver: function (driver) {
-//
-//         car.driver = driver;
-//     }
-// }
-//
-// console.log(car);
-// car.drive();
-// car.increaseMaxSpeed();
-// car.change();
-// car.addDriver();
-// car.info();
-// car.addDriver( {
-//     name: 'Stig',
-//     age: 40,
-//     experience: 22,
-// });
-// console.log(car);
+let car = {
+    manufacturer: 'BMW',
+    model: 'M5',
+    year: 2006,
+    maxSpeed: 250,
+    capacity: 5.0,
+    drive: function () {
+        console.log(`їдемо зі швидкістю ${this.maxSpeed} км/год`);
+    },
+    info: function () {
+        console.log(car);
+    },
+    increaseMaxSpeed: function (newSpeed = 400) {
+        this.maxSpeed = newSpeed
+        console.log(newSpeed);
+    },
+    change: function (newValue = 2010) {
+        this.year = newValue
+        console.log(newValue);
+    },
+    addDriver: function (driver) {
+
+        this.driver = driver;
+    }
+}
+
+car.info()
+car.addDriver( {
+    name: 'Stig',
+    age: 40,
+    experience: 22,
+});
