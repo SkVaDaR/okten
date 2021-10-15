@@ -1,0 +1,24 @@
+.info{
+    background: #d7cf33;
+    color: #565151;
+}
+img{
+    border: 5px solid black;
+    border-bottom: 5px solid white;
+    border-top: 5px solid #4ab3ff;
+}
+.achievements{
+    background: #000;
+    color: gold;
+}
+.achievements p{
+    color: aquamarine;
+}
+ul{
+    width: fit-content;
+    border: 10px inset mediumpurple;
+    color: white;
+}
+h2{
+    margin-top: 0px;
+}
