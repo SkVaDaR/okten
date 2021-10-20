@@ -1,0 +1,47 @@
+.widgets {
+    background-color: #437bde;
+    height: 100px;
+    text-align: center;
+    padding-top: 75px;
+    font-size: larger;
+}
+
+.middle {
+    display: flex;
+    width: 100%;
+}
+
+.bigWidgets {
+    background-color: #120ccd;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    padding-top: 75px;
+    font-size: larger;
+}
+
+.biggerWidgets {
+    background-color: #120ccd;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    padding-top: 75px;
+    font-size: larger;
+}
+
+.hugeWidgets {
+    background-color: #120ccd;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    padding-top: 75px;
+    font-size: larger;
+}
+
+.contact{
+    background-color: #437bde;
+    height: 150px;
+    text-align: center;
+    padding-top: 100px;
+    font-size: larger;
+}

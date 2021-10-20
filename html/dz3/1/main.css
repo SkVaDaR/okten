@@ -1,0 +1,21 @@
+.a {
+    background-color: #cd3d3d;
+    min-height: 100px;
+    width: 100%;
+}
+
+.b {
+    background-color: #53d770;
+    min-height: 100px;
+    width: 70%;
+}
+
+.c {
+    background-color: #0f41b8;
+    min-height: 100px;
+    width: 30%;
+}
+
+.all {
+    display: flex;
+}

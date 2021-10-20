@@ -1,0 +1,33 @@
+#header {
+    background-color: #f1b63c;
+    width: 100%;
+    height: 100px;
+}
+
+.middle {
+    display: flex;
+}
+
+#menu {
+    background-color: #ec2fdb;
+    width: 30%;
+    height: 206px;
+}
+
+#right {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.post {
+    background-color: #648ec2;
+    width: 100%;
+    height: 100px;
+    margin-bottom: 3px;
+}
+
+#footer {
+    background-color: #716969;
+    height: 100px;
+}
